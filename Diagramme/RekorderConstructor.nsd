@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;Rekorder(dateipfad:text, tempo:GZ, instrumentPath:text, tastenListener:TastenListener)&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;fileWriter:FileWriter&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter:BufferedWriter&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;file:File&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;sampleStarten:SampleStarten&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;tempo:GZ&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;tastenListener:TastenListener&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;thread:Thread&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;istRekorderAktive:boolean&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;file &#60;- new File(dateipfad)&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;file.createNewFile()&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;sampleStarten &#60;- new SampleStarten()&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;fileWriter &#60;- new FileWriter(file)&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter &#60;- new BufferedWriter(fileWriter)&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;this.tempo &#60;- tempo&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;this.tastenListener &#60;- tastenListener&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;thread &#60;- Thread(this)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter.write(Integer.toString(tempo))&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter.newLine()&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter.write(instrumentPath)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter.newLine()&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;bufferedWriter.newLine()&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;istRekorderAktiv &#60;- true&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;thread.start()&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+	</children>
+</root>

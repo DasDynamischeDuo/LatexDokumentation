@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;run()&#34;" comment="" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;pause:GZ&#34;" comment="" color="ff8000" rotated="0"></instruction>
+		<instruction text="&#34;pause &#60;- 15000  /  tempo&#34;" comment="" color="ffffff" rotated="0"></instruction>
+		<for text="&#34;für i = 0 bis i &#60; 4 erhöhe i um 1&#34;" comment="" color="8080ff">
+			<qFor>
+				<instruction text="&#34;sampleStarten.spieleSampleton(-1, &#34;&#34;/SonstigeSample/Metronom.wav&#34;&#34;)&#34;" comment="" color="80ff80" rotated="0"></instruction>
+				<instruction text="&#34;thread.sleep(pause * 3)&#34;" comment="" color="80ff80" rotated="0"></instruction>
+			</qFor>
+		</for>
+		<while text="&#34;solange istRekorderAktiv&#34;" comment="" color="80ffff">
+			<qWhile>
+				<alternative text="&#34;istTonGespieltwurden&#34;" comment="" color="ffff80">
+					<qTrue>
+						<alternative text="&#34;taste &#60; 10&#34;" comment="" color="ffff80">
+							<qTrue>
+								<instruction text="&#34;bufferedWriter.write(&#34;&#34;0&#34;&#34; +Integer.toString(taste))&#34;" comment="" color="80ff80" rotated="0"></instruction>
+							</qTrue>
+							<qFalse>
+								<instruction text="&#34;bufferedWriter.write(Integer.toString(taste))&#34;" comment="" color="80ff80" rotated="0"></instruction>
+							</qFalse>
+						</alternative>
+					</qTrue>
+					<qFalse>
+						<instruction text="&#34;            &#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+					</qFalse>
+				</alternative>
+				<instruction text="&#34;bufferedWriter.write(&#34;&#34;-&#34;&#34;)&#34;" comment="" color="80ff80" rotated="0"></instruction>
+				<instruction text="&#34;bufferedWriter.newLine()&#34;" comment="" color="80ff80" rotated="0"></instruction>
+				<instruction text="&#34;tastenListener.setAnzToeneGleichzeitig(0)&#34;" comment="" color="80ff80" rotated="0"></instruction>
+				<instruction text="&#34;istTonGespieltwurden &#60;- false&#34;" comment="" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;Thread.sleep((15000/tempo))&#34;" comment="" color="80ff80" rotated="0"></instruction>
+				<instruction text="&#34;bufferedWriter.close()&#34;" comment="" color="80ff80" rotated="0"></instruction>
+			</qWhile>
+		</while>
+	</children>
+</root>

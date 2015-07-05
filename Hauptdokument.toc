@@ -1,0 +1,120 @@
+<<<<<<< HEAD
+\select@language {german}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Vorstellung des Prokeltes}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Unser Team}{3}{subsubsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Das Projektmanagement}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}SCRUM}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}GitHub}{5}{subsubsection.1.2.2}
+\contentsline {section}{\numberline {2}Technische Dokumentation}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Dokumentation der Storys}{6}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Der Benutzer m\IeC {\"o}chte ein Fenster}{6}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Der Benutzer m\IeC {\"o}chte 3 Sektionen in dem Fenster}{6}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Der Benutzer m\IeC {\"o}chte, dass in der unteren Sektion Klaviertasten angezeigt werden}{6}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Der Benutzer m\IeC {\"o}chte mittels Tasten (Tastatur) einen Klavierton abspielen}{7}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Der Programmierer arbeitet sich in Git-Hub ein}{7}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Der Programmierer arbeitet sich in Javadocs ein}{7}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}Der Benutzer m\IeC {\"o}chte, dass die gespielte Taste hervorgehoben wird}{7}{subsubsection.2.1.7}
+\contentsline {subsubsection}{\numberline {2.1.8}Der Benutzer m\IeC {\"o}chte voreingestellte Samples ausw\IeC {\"a}hlen k\IeC {\"o}nnen}{8}{subsubsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.9}Der Benutzer m\IeC {\"o}chte mehrere T\IeC {\"o}ne gleichzeitig spielen k\IeC {\"o}nnen}{8}{subsubsection.2.1.9}
+\contentsline {subsubsection}{\numberline {2.1.10}Der Benutzer m\IeC {\"o}chte, dass in der oberen Sektion Notenlinien angezeigt werden}{8}{subsubsection.2.1.10}
+\contentsline {subsubsection}{\numberline {2.1.11}Der Benutzer m\IeC {\"o}chte Notenlbl\IeC {\"a}tter, auf denen Noten angezeigt und abgespeichert werden}{9}{subsubsection.2.1.11}
+\contentsline {subsubsection}{\numberline {2.1.12}Der Benutzer m\IeC {\"o}chte das gespielte T\IeC {\"o}ne als Note angezeigt werden}{9}{subsubsection.2.1.12}
+\contentsline {subsubsection}{\numberline {2.1.13}Der Benutzer m\IeC {\"o}chte das gespeicherte Notenlinien in einem externen Fenster aufgerufen werden k\IeC {\"o}nnen}{9}{subsubsection.2.1.13}
+\contentsline {subsubsection}{\numberline {2.1.14}Der Benutzer m\IeC {\"o}chte gespeicherte Notenlinien abspielen}{9}{subsubsection.2.1.14}
+\contentsline {subsubsection}{\numberline {2.1.15}Der Benutzer m\IeC {\"o}chte Noten, die auf den Notenlinien angezeigt und abgespeichert werden}{10}{subsubsection.2.1.15}
+\contentsline {subsubsection}{\numberline {2.1.16}Der Entwickler m\IeC {\"o}chte eine Latex Dokumentation}{10}{subsubsection.2.1.16}
+\contentsline {subsubsection}{\numberline {2.1.17}Der Benutzer m\IeC {\"o}chte ein ToolBar-Men\IeC {\"u}}{10}{subsubsection.2.1.17}
+\contentsline {subsubsection}{\numberline {2.1.18}Der Benutzer m\IeC {\"o}chte, dass in der Mittleren Sektion Buttons zur Steuerung angezeigt werden}{11}{subsubsection.2.1.18}
+\contentsline {subsubsection}{\numberline {2.1.19}Der Benutzer m\IeC {\"o}chte mit der Leertaste alle ge\IeC {\"o}ffneten Aufnahmen abspielen}{11}{subsubsection.2.1.19}
+\contentsline {subsubsection}{\numberline {2.1.20}Der Benutzer m\IeC {\"o}chte eingene Samples benutzen k\IeC {\"o}nnen}{11}{subsubsection.2.1.20}
+\contentsline {subsubsection}{\numberline {2.1.21}Der Benutzer m\IeC {\"o}chte einen Projektordner erzeugen k\IeC {\"o}nnen}{11}{subsubsection.2.1.21}
+\contentsline {subsubsection}{\numberline {2.1.22}Der Benutzer m\IeC {\"o}chte das die Note einer Taste auf der Taste angezeigt wird}{12}{subsubsection.2.1.22}
+\contentsline {subsubsection}{\numberline {2.1.23}Der Benutzer m\IeC {\"o}chte die Samples wechseln}{12}{subsubsection.2.1.23}
+<<<<<<< HEAD
+\contentsline {subsection}{\numberline {2.2}Klassendiagramme}{14}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Sequenzdiagramme}{15}{subsection.2.3}
+\contentsline {paragraph}{Beschreibung:}{15}{section*.2}
+\contentsline {paragraph}{Beschreibung:}{16}{section*.3}
+\contentsline {subsection}{\numberline {2.4}Struktogramme}{17}{subsection.2.4}
+\contentsline {paragraph}{Beschreibung:}{17}{section*.4}
+\contentsline {paragraph}{Beschreibung:}{18}{section*.5}
+\contentsline {subsection}{\numberline {2.5}Javadocs}{19}{subsection.2.5}
+\contentsline {section}{\numberline {3}Benutzerhandbuch}{20}{section.3}
+\contentsline {subsection}{\numberline {3.1}Einleitung}{20}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Projekt}{20}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Erstellen}{21}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}\IeC {\"O}ffnen}{22}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Aufnehmen}{23}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Abspielen}{24}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Eigene Samples}{25}{subsubsection.3.2.5}
+=======
+\contentsline {subsection}{\numberline {2.2}Klassendiagramme}{13}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Klassendiagramme}{13}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.4}Sequenzdiagramme}{14}{subsection.2.4}
+\contentsline {paragraph}{Beschreibung:}{14}{section*.2}
+\contentsline {paragraph}{Beschreibung:}{15}{section*.3}
+\contentsline {subsection}{\numberline {2.5}Struktogramme}{16}{subsection.2.5}
+\contentsline {paragraph}{Beschreibung:}{16}{section*.4}
+\contentsline {paragraph}{Beschreibung:}{17}{section*.5}
+\contentsline {subsection}{\numberline {2.6}Beschreibung einiger Methoden}{18}{subsection.2.6}
+\contentsline {subsection}{\numberline {2.7}Javadocs}{18}{subsection.2.7}
+\contentsline {section}{\numberline {3}Benutzerhandbuch}{19}{section.3}
+\contentsline {subsection}{\numberline {3.1}Einleitung}{19}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Projekt}{19}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Erstellen}{20}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}\IeC {\"O}ffnen}{21}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Aufnehmen}{22}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Abspielen}{23}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Eigene Samples}{24}{subsubsection.3.2.5}
+>>>>>>> parent of 3259644... Kommplett
+=======
+\select@language {german}
+\contentsline {section}{\numberline {1}Einleitung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1}Vorstellung des Prokeltes}{3}{subsection.1.1}
+\contentsline {subsubsection}{\numberline {1.1.1}Unser Team}{3}{subsubsection.1.1.1}
+\contentsline {subsection}{\numberline {1.2}Das Projektmanagement}{4}{subsection.1.2}
+\contentsline {subsubsection}{\numberline {1.2.1}SCRUM}{4}{subsubsection.1.2.1}
+\contentsline {subsubsection}{\numberline {1.2.2}GitHub}{5}{subsubsection.1.2.2}
+\contentsline {section}{\numberline {2}Technische Dokumentation}{6}{section.2}
+\contentsline {subsection}{\numberline {2.1}Dokumentation der Storys}{6}{subsection.2.1}
+\contentsline {subsubsection}{\numberline {2.1.1}Der Benutzer m\IeC {\"o}chte ein Fenster}{6}{subsubsection.2.1.1}
+\contentsline {subsubsection}{\numberline {2.1.2}Der Benutzer m\IeC {\"o}chte 3 Sektionen in dem Fenster}{6}{subsubsection.2.1.2}
+\contentsline {subsubsection}{\numberline {2.1.3}Der Benutzer m\IeC {\"o}chte, dass in der unteren Sektion Klaviertasten angezeigt werden}{6}{subsubsection.2.1.3}
+\contentsline {subsubsection}{\numberline {2.1.4}Der Benutzer m\IeC {\"o}chte mittels Tasten (Tastatur) einen Klavierton abspielen}{7}{subsubsection.2.1.4}
+\contentsline {subsubsection}{\numberline {2.1.5}Der Programmierer arbeitet sich in Git-Hub ein}{7}{subsubsection.2.1.5}
+\contentsline {subsubsection}{\numberline {2.1.6}Der Programmierer arbeitet sich in Javadocs ein}{7}{subsubsection.2.1.6}
+\contentsline {subsubsection}{\numberline {2.1.7}Der Benutzer m\IeC {\"o}chte, dass die gespielte Taste hervorgehoben wird}{7}{subsubsection.2.1.7}
+\contentsline {subsubsection}{\numberline {2.1.8}Der Benutzer m\IeC {\"o}chte voreingestellte Samples ausw\IeC {\"a}hlen k\IeC {\"o}nnen}{8}{subsubsection.2.1.8}
+\contentsline {subsubsection}{\numberline {2.1.9}Der Benutzer m\IeC {\"o}chte mehrere T\IeC {\"o}ne gleichzeitig spielen k\IeC {\"o}nnen}{8}{subsubsection.2.1.9}
+\contentsline {subsubsection}{\numberline {2.1.10}Der Benutzer m\IeC {\"o}chte, dass in der oberen Sektion Notenlinien angezeigt werden}{8}{subsubsection.2.1.10}
+\contentsline {subsubsection}{\numberline {2.1.11}Der Benutzer m\IeC {\"o}chte Notenlbl\IeC {\"a}tter, auf denen Noten angezeigt und abgespeichert werden}{9}{subsubsection.2.1.11}
+\contentsline {subsubsection}{\numberline {2.1.12}Der Benutzer m\IeC {\"o}chte das gespielte T\IeC {\"o}ne als Note angezeigt werden}{9}{subsubsection.2.1.12}
+\contentsline {subsubsection}{\numberline {2.1.13}Der Benutzer m\IeC {\"o}chte das gespeicherte Notenlinien in einem externen Fenster aufgerufen werden k\IeC {\"o}nnen}{9}{subsubsection.2.1.13}
+\contentsline {subsubsection}{\numberline {2.1.14}Der Benutzer m\IeC {\"o}chte gespeicherte Notenlinien abspielen}{9}{subsubsection.2.1.14}
+\contentsline {subsubsection}{\numberline {2.1.15}Der Benutzer m\IeC {\"o}chte Noten, die auf den Notenlinien angezeigt und abgespeichert werden}{10}{subsubsection.2.1.15}
+\contentsline {subsubsection}{\numberline {2.1.16}Der Entwickler m\IeC {\"o}chte eine Latex Dokumentation}{10}{subsubsection.2.1.16}
+\contentsline {subsubsection}{\numberline {2.1.17}Der Benutzer m\IeC {\"o}chte ein ToolBar-Men\IeC {\"u}}{10}{subsubsection.2.1.17}
+\contentsline {subsubsection}{\numberline {2.1.18}Der Benutzer m\IeC {\"o}chte, dass in der Mittleren Sektion Buttons zur Steuerung angezeigt werden}{11}{subsubsection.2.1.18}
+\contentsline {subsubsection}{\numberline {2.1.19}Der Benutzer m\IeC {\"o}chte mit der Leertaste alle ge\IeC {\"o}ffneten Aufnahmen abspielen}{11}{subsubsection.2.1.19}
+\contentsline {subsubsection}{\numberline {2.1.20}Der Benutzer m\IeC {\"o}chte eingene Samples benutzen k\IeC {\"o}nnen}{11}{subsubsection.2.1.20}
+\contentsline {subsubsection}{\numberline {2.1.21}Der Benutzer m\IeC {\"o}chte einen Projektordner erzeugen k\IeC {\"o}nnen}{11}{subsubsection.2.1.21}
+\contentsline {subsubsection}{\numberline {2.1.22}Der Benutzer m\IeC {\"o}chte das die Note einer Taste auf der Taste angezeigt wird}{12}{subsubsection.2.1.22}
+\contentsline {subsubsection}{\numberline {2.1.23}Der Benutzer m\IeC {\"o}chte die Samples wechseln}{12}{subsubsection.2.1.23}
+\contentsline {subsection}{\numberline {2.2}Klassendiagramme}{13}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.3}Sequenzdiagramme}{14}{subsection.2.3}
+\contentsline {paragraph}{Beschreibung:}{14}{section*.2}
+\contentsline {paragraph}{Beschreibung:}{15}{section*.3}
+\contentsline {subsection}{\numberline {2.4}Struktogramme}{16}{subsection.2.4}
+\contentsline {paragraph}{Beschreibung:}{16}{section*.4}
+\contentsline {paragraph}{Beschreibung:}{17}{section*.5}
+\contentsline {subsection}{\numberline {2.5}JavaDocs}{17}{subsection.2.5}
+\contentsline {section}{\numberline {3}Benutzerhandbuch}{18}{section.3}
+\contentsline {subsection}{\numberline {3.1}Einleitung}{18}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Projekt}{18}{subsection.3.2}
+\contentsline {subsubsection}{\numberline {3.2.1}Erstellen}{19}{subsubsection.3.2.1}
+\contentsline {subsubsection}{\numberline {3.2.2}\IeC {\"O}ffnen}{20}{subsubsection.3.2.2}
+\contentsline {subsubsection}{\numberline {3.2.3}Aufnehmen}{21}{subsubsection.3.2.3}
+\contentsline {subsubsection}{\numberline {3.2.4}Abspielen}{22}{subsubsection.3.2.4}
+\contentsline {subsubsection}{\numberline {3.2.5}Eigene Samples}{23}{subsubsection.3.2.5}
+>>>>>>> origin/Emanuel

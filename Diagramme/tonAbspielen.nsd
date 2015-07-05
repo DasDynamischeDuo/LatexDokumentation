@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root text="&#34;tonAbspielen(ton:GZ, instrumentPath:text)&#34;" comment="&#34;&#34;" color="ffffff" type="program" style="nice">
+	<children>
+		<instruction text="&#34;path:text&#34;" comment="&#34;&#34;" color="ff8000" rotated="0"></instruction>
+		<instruction text="&#34;file:File&#34;" comment="&#34;&#34;" color="ff8000" rotated="0"></instruction>
+		<instruction text="&#34;clip:Clip&#34;" comment="&#34;&#34;" color="ff8000" rotated="0"></instruction>
+		<instruction text="&#34;clip &#60;- null&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;file &#60;- null&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<alternative text="&#34;instrumentPath.equals(&#34;&#34;/PianoSample&#34;&#34;) ODER instrumentPath.equals(&#34;&#34;/SchalgzeugSample&#34;&#34;) ODER &#34;,&#34;instrumentPath.equals(&#34;&#34;/SonstigeSample/Metronom.wav&#34;&#34;)&#34;" comment="&#34;&#34;" color="ffff80">
+			<qTrue>
+				<instruction text="&#34;file &#60;- new File(SampleAbspielen.class.getResource(dateipfadVonTon(ton, instrumentPath)).toURI())&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qTrue>
+			<qFalse>
+				<instruction text="&#34;path &#60;- dateipfadVonTon(ton, instrumentPath)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+				<instruction text="&#34;fiel &#60;- new File(path)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+			</qFalse>
+		</alternative>
+		<instruction text="&#34;audioInputStream:AudioInputStream&#34;" comment="&#34;&#34;" color="ff8000" rotated="0"></instruction>
+		<instruction text="&#34;audioInputStream &#60;- AudioSystem.getAudioInputStream(file)&#34;" comment="&#34;&#34;" color="ffffff" rotated="0"></instruction>
+		<instruction text="&#34;clip.open(audioInputStream)&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+		<instruction text="&#34;clip.start()&#34;" comment="&#34;&#34;" color="80ff80" rotated="0"></instruction>
+	</children>
+</root>

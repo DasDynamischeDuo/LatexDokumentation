@@ -1,0 +1,49 @@
+\section{Einleitung}
+
+\subsection{Vorstellung des Prokeltes}
+
+Unser Projekt das Digital-Input Computer-Keyboard, ist wie der Name schon vermuten lässt ein 
+Digitales Keyboard. Man kann damit mithilfe seines PCs und einer Tastatur Keyboard spielen. Es kann 
+allerdings auch noch mehr. Der Benutzer hat die Möglichkeit verschiedene Samples ( Tonspuren die 
+Instrumente darstellen ) einzustellen. Somit kann er theoretisch jedes Musikinstrument über seine 
+Tastatur spielen. Außerdem kann der Benutzer gespieltes aufnehmen und abspielen lassen. Somit kann 
+er mit verschiedenen Instrumenten und Tonspuren eigene Lieder zusammensampeln. 
+
+Dieses Projekt hat Emanuel und mir sehr gut gefallen, da wir beide ein Musikinstrument spielen und 
+auch allgemein Musik begeistert sind. Ein eigenes kleines Sample-Programm zu gestalten lag also 
+nahe.
+
+
+\subsection{Das Projektmanagement}
+\subsubsection{SCRUMB}
+\subsubsection{GitHub}
+"Build software better, together." (Motto von GitHub)\\
+
+Für unsere Projektarbeiten verwendeten wir GitHub. GitHub ist ein webbasierter Hosting-Dienst für 
+Softwareprojekte. Damit Emanuel und ich also bequem von zuhause aus zusammen arbeiten konnten haben 
+wir uns ein Repository in GitHub eingerichtet. Zusammen mit dem Eclipse-Plugin EGit konnten wir 
+unsere Arbeit austauschen und vergleichen. Obwohl es Anfangs Probleme mit der Bedienung und den 
+verschiedenen Funktionen GitHubs und EGits gab, hat es uns doch sehr geholfen und vieles 
+vereinfacht. So konnten wir zum Beispiel gleichzeitig an verschieden Problemen arbeiten, indem wir 
+verschiedene Branches ( "Pfade" also Ableger des Projekts ) erstellt haben und dann an diesen 
+Branches gearbeitet haben. Sobald dann ein Problem behoben war hat man den Pfad wieder dem 
+Hauptprojekt hinzugefügt und konnte besprechen was genau gemacht wurde und was vielleicht noch 
+verbessert werden muss.\\
+
+GitHub war uns im allgemeinen eine sehr große Hilfe, aber zu Anfang auch eine große Hürde. Bis wir 
+zurechtkamen mit den Branches, Commits ect. hat es eine Weile gedauert. Man kann aber durchaus 
+behaupten das sich der Aufwand gelohnt hat. Ich würde jedem der ein Softwareprojekt entwickelt 
+empfehlen mit GitHub zu arbeiten, auch wenn er alleine daran arbeitet. Denn EGit zwingt einen dazu 
+seine Änderungen zu dokumentieren und zwischenzuspeichern. Dies ist zwar etwas nervig, aber man 
+kann 
+sein Projekt immer wieder auf einen beliebigen Standpunkt zurücksetzten wenn etwas komplett 
+schiefgelaufen ist. Dies hat mir oft sehr viel Arbeit erspart.\\
+
+Gerade jetzt für diese Dokumentation verwenden wir auch GitHub for Windows. Ein Programm für 
+Windows 
+welches einem erlaubt jede Art von Datei über GitHub zu veröffentlichen und zu bearbeiten. GitHub 
+hat uns also sehr viel Arbeit erspart und es uns ermöglicht obwohl wir weit auseinander wohnen ein 
+Projekt auch zusammen zu erarbeiten.\\
+
+
+\subsubsection{Unser Team}

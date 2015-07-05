@@ -1,0 +1,385 @@
+\section{Technische Dokumentation}
+\subsection{Dokumentation der Storys}
+
+\subsubsection{Der Benutzer möchte ein Fenster}
+
+\begin{enumerate}
+ \item Das Fenster ist sichtbar
+ \item Das Fenster hat eine festgelegte größe
+ \item Das Fenster kann verschoben werden
+\end{enumerate}
+
+\textbf{Storypoints:} 2 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte 3 Sektionen in dem Fenster}
+
+
+\begin{enumerate}
+ \item Die Sektionen sollen beschriftet sein
+ \item Sektionen untereinander"
+\end{enumerate}
+
+\textbf{Storypoints:} 2 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte, dass in der unteren Sektion Klaviertasten angezeigt werden}
+
+\begin{enumerate}
+ \item Die Tasten haben 2 Farben (schwarz/weiß)
+ \item Die Tasten können angeklickt werden
+ \item Die Tasten sind wie auf einem Klavier angeordnet
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte mittels Tasten (Tastatur) einen Klavierton abspielen}
+
+\begin{enumerate}
+ \item Die Tasten spielen jeweils genanu einen Ton wenn sie geklickt werden
+ \item Die Tasten können einen Ton halten
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Zu Begin versuchten wir dies über eine Synthesizer-Klasse der 
+Javabibliothek. Dies erwies sich allerdings als äußerst umständlich. Deswegen entschlossen wir uns 
+die Samples selber zusammen zu stellen und diese als Clips aufzurufen.
+
+
+\subsubsection{Der Programmierer arbeitet sich in Git-Hub ein}
+
+\begin{enumerate}
+ \item Das Git-Hub Repository kann von allen Programmierern benutzt werden
+\end{enumerate}
+
+\textbf{Storypoints:} 3 \\
+\textbf{Bearbeitet von:} Fabian Zeller, Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Um die Zusammenarbeit zu erleichtern verwendeten wir GitHub zur Verwaltung 
+unseres Projektes (Siehe \textbf{\ref{sssec:GitHub} GitHub})
+
+
+\subsubsection{Der Programmierer arbeitet sich in Javadocs ein}
+
+\begin{enumerate}
+ \item Die Javadoc-Seite soll alle wichtigen Informationen zu dem Programmquellcode enthalten
+ \item Die Javadoc-Seite soll in der Dokumentation verlinkt werden
+\end{enumerate}
+
+\textbf{Storypoints:} 3 \\
+\textbf{Bearbeitet von:} Fabian Zeller, Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Wir entschieden uns unseren Quelltext mittels Javadocs auszukemmentieren. 
+Dies bot uns die möglichkeit den überblick zu behalten und dem jeweils anderem eine einfache 
+möglichkeit zu bieten den Quelltext besser zu verstehen.
+
+
+\subsubsection{Der Benutzer "möchte, dass die gespielte Taste hervorgehoben wird}
+
+\begin{enumerate}
+ \item Wenn eine Taste auf der Tastatur betätigt wird, färbt sich die entsprechende Taste auf dem 
+Bildschirm
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte voreingestellte Samples auswählen können}
+
+\begin{enumerate}
+ \item Die Sample sollen die Tasten mit unterschiedlichen Tönen belegen
+ \item Die voreingestellten Samples sollen Klaviertöne und Schlagzeugtöne 
+abspielen
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Das Programm sollte eine möglichkeit bieten, direkt etwas spielen zu können. 
+Da die Java Sound API nur .wav Dateien mit 8 oder 16 Bit, mussten wir auch solche Sounddateien als 
+Samples verwenden. Die Samples können über Radiobutton ausgewählt werden.
+
+
+\subsubsection{Der Benutzer möchte mehrere Töne gleichzeitig spielen können}
+
+\begin{enumerate}
+ \item Die Töne sollen gleichzeitig abgespielt werden können
+ \item Die Töne sollen nicht durch andere Töne unterbrochen werden
+ \item Die Töne, die gleichzeitig angespielt wurden, sollen auch gleichzeitig abgespielt werden
+ \item Die  anzahl der Töne die gleichzeitig gespielt werden können ist auf 3 beschränkt
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Damit Töne gleichzeitig abgespielt werden können müssen diese über 
+einen Thread in einem Vektor erzeugt und gestartet werden. Der Key Buffer kann jedoch nicht 
+mehr als 3 Tasten gleichzeitig erfassen.
+
+
+\subsubsection{Der Benutzer möchte, dass in der oberen Sektion Notenlinien angezeigt werden}
+
+\begin{enumerate}
+ \item Die Notenlinien bestehen aus fünf Linien
+ \item Die Notenlinien beginnen mit einem Notenschlüssel
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte Notenlinien, auf denen Noten angezeigt und abgespeichert werden}
+
+\begin{enumerate}
+ \item Die Notenlinien speichern das Sample (pro Notenlinie genau ein Sample)
+ \item Die Notenlinien sollen, mit den gespielten Noten, gespeichert werden können
+ \item Noten speichern informationen
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte das gespielte Töne als Note angezeigt werden}
+
+\begin{enumerate}
+ \item Noten laufen die Notenlinie entlang
+ \item Vorzeichen bei bestimmten Noten
+\end{enumerate}
+
+\textbf{Storypoints:} 8 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte das gespeicherte Notenlinien in einem externen Fenster aufgerufen 
+werden können}
+
+\begin{enumerate}
+ \item Die Notenlinien  werden in einem externen Fenster geöffnet
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Wird eine Datei abgespielt öffnet sich ein seperates Fenster, in welchem der 
+Player die gerade abgespielte Note abbildet.
+
+
+\subsubsection{Der Benutzer möchte gespeicherte Notenlinien abspielen}
+
+\begin{enumerate}
+ \item Die Notenlinien  können abgespielt, pausiert und gestoppt werden
+\end{enumerate}
+
+\textbf{Storypoints:} 8 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Die gespeicherten Noten werden aus einer Textdatei ausgelesen und 
+abgespielt. Ein Button kann diese nun pausieren. Wird das Fenster geschlossen, wird auch die Datei 
+gestoppt.
+
+
+\subsubsection{Der Benutzer möchte Noten, die auf den Notenlinien angezeigt und abgespeichert 
+werden}
+
+\begin{enumerate}
+ \item Die Noten, die gespielt wurden, sollen auf den richtigen Notenlinien angezeigt werden
+ \item Die Noten sollen die Tonhöhe speichern
+\end{enumerate}
+
+\textbf{Storypoints:} 8 \\
+\textbf{Bearbeitet von:} Fabian Zeller, Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Wird während der Aufnahme eine Taste gedrückt wird diese in ein Textdokument 
+geschrieben.
+
+
+\subsubsection{Der Entwickler möchte eine Latex Dokumentation}
+
+\begin{enumerate}
+ \item Deckblatt
+ \item Inhaltsverzeichniss
+ \item Link auf Javadocs
+ \item Quellen
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller, Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte ein ToolBar-Menü}
+
+\begin{enumerate}
+ \item Die ToolBar enthält ein Hilfe-Menü
+ \item Die ToolBar enthält ein Projekt Öffnen-Menü
+ \item Die ToolBar enthält ein Neues Projekt-Menü
+\end{enumerate}
+
+\textbf{Storypoints:} 3 \\
+\textbf{Bearbeitet von:} Fabian Zeller, Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Wir entschieden uns dazu keine Untermenüs zu verwenden, da bei einer so 
+geringen anzahl an Optionen, dies viel umständlicher für den Benutzer währe.
+
+
+\subsubsection{Der Benutzer möchte, dass in der Mittleren Sektion Buttons zur Steuerung angezeigt 
+werden}
+
+\begin{enumerate}
+ \item Samples können über Radiobutton ausgewählt werden
+\end{enumerate}
+
+\textbf{Storypoints:} 3 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Ürsprünglich waren die Button zur Aufnahme und Wiedergabe ebenfalls in 
+diesem Bereich geplant. Diese sind jedoch nun Projektgebunden und deswegen in dem Projektfenster. 
+Es finden sich hier nurnoch die Radiobutton zur Auswahl der Sample.
+
+
+\subsubsection{Der Benutzer möchte mit der Leertaste alle geöffneten Aufnahmen abspielen}
+
+\begin{enumerate}
+ \item Die Leertaste startet oder Stoppt alle geöffneten Aufnahmen
+\end{enumerate}
+
+\textbf{Storypoints:} 8 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Damit alle Aufnahmen gleichzeitig abgespielt werden können und als ``ganzes 
+Lied'' gehört werden können. Ermöglicht es die Leertaste alle geöffneten Aufnahmen gleichzeitig 
+abzuspielen.
+
+
+\subsubsection{Der Benutzer möchte eingene Samples benutzen können}
+
+\begin{enumerate}
+ \item Die Samples sollen in eine Bibliothek geladen werden können
+ \item Die Samples sollen vom Benutzer ausgewählt und abgespielt werden können
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Am einfachsten und übersichtlichsten erwies es sich, eigene Samples nur mit 
+einem Projekt verwenden zu können. Diese sind dabei immer in dem Projekt-Ortner unter Samples in 
+einem Ortner abzuspeichern.
+
+
+\subsubsection{Der Benutzer möchte einen Projektordner erzeugen können}
+
+\begin{enumerate}
+ \item Der Projektordner enthält eine Sample- und einen Aufnahme-Ordner
+\end{enumerate}
+
+\textbf{Storypoints:} 8 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Wird ein neues Projekt erstellt speichert dies nur den Ordnerpfad in dem 
+sich die Samples und Aufnahmen befinden.
+
+
+\subsubsection{Der Benutzer möchte das die Note einer Taste auf der Taste angezeigt wird}
+
+\begin{enumerate}
+ \item Sichtbare Note auf den Tasten
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Fabian Zeller \\
+\\
+\textbf{Beschreibung:} 
+
+
+\subsubsection{Der Benutzer möchte die Samples wechseln}
+
+\begin{enumerate}
+ \item Die Samples sollen mittels RadioButton ausgewählt werden können,
+ \item Die RadioButton sollen für jede Taste das gleiche Sample auswählen
+ \item Die Samples sollen mit Tasten gewächselt werden können"
+\end{enumerate}
+
+\textbf{Storypoints:} 5 \\
+\textbf{Bearbeitet von:} Emanuel Hubenschmid \\
+\\
+\textbf{Beschreibung:} Ist ein Radiobutton ausgewählt wird der Ordnerpfad 
+des jeweiligen Samples benutzt um den Clip zu starten.
+
+
+\newpage
+
+
+\subsection{Klassendiagramme}
+\subsection{Sequenzdiagramme}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\textwidth]{./Bilder/Klaviertaste_Gedrueckt.png}
+ \caption{Sequenzdiagramm für das Abspielen eines Tones}
+\end{figure}
+
+
+\newpage
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\textwidth]{./Bilder/Neues_Projekt.png}
+ \caption{Sequenzdiagramm für das Abspielen eines Tones}
+\end{figure}
+
+\newpage
+
+\subsection{Struktogramme}
+
+
+\begin{figure}[h]
+ \centering
+ \includegraphics[width=1\textwidth]{./Bilder/Ton_Aufnehmen.png}
+ \caption{Sequenzdiagramm für das Abspielen eines Tones}
+\end{figure}
+
+
+\newpage
+
+
+\subsection{Beschreibung einiger Methoden}
+
+
+
+
+Wir haben während des Projekts alle Methoden mithilfe von Javadocs dokumentiert. Unser komplettes 
+Project ist also hier einsehbar: %Javadoc Zeug
+\\
+
+Einige größere Methoden werden wir in dieser Dokumentation allerdings etwas genauer beschreiben.
+
+\subsection{Javadocs}
+Der komplette Quelltext wurde mittels Javadocs auskommentiert. Hier kann nachgelesen werden, welche 
+funktion die einzelnen Methoden erfüllen, sowie ihre Übergabe- und Rückgabeparameter, bzw. 
+Exeptions  eingesehen werden.\\
+Die komplette Javadocs Dokumentation kann hier geöffnet werden:\\
+\url{./JavaDocs/index.html}
